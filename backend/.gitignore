@@ -1,0 +1,26 @@
+# Python & Virtual Environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Django Specific
+db.sqlite3
+media/
+staticfiles/
+
+# Environment & Secrets
+*.env
+.env
+.env.local
+*.env.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

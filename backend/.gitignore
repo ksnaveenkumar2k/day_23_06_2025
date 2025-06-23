@@ -1,19 +1,18 @@
 # Python & Virtual Environment
 venv/
 env/
-*.pyc
-__pycache__/
+
+# Environment & Secrets
+.env
+*.env
+.env.*
+.env.local
+*.env.local
 
 # Django Specific
 db.sqlite3
 media/
 staticfiles/
-
-# Environment & Secrets
-*.env
-.env
-.env.local
-*.env.local
 
 # IDE / Editor
 .vscode/
